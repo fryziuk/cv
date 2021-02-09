@@ -9,117 +9,124 @@
     <link rel="stylesheet" href="normalize.css">
 </head>
 
-<body>
+<body id="grid">
 
-    <div id ="info-container">
-        <img id="photo" src="./images/oleksandr.jpg" alt="Oleksandr Fryziuk" width="500" height="500" />
+    <div class="content">
 
-        <div id="info">
-            <h1>Oleksandr Fryziuk</h1>
-            <p>Address: Kyiv, Ukraine</p>
-            <p>Phone: +38 (063) 577 95 21 </p>
-            <p>email: fryzukalex@gmail.com</p>
-            <p>Date of birth: Born 23 April 1994</p>
+        <div id="personal-info">
+            <div>
+                <img id="photo" src="./images/oleksandr.jpg" alt="Oleksandr Fryziuk" width="250" height="250" />
+            </div>
+
+            <div>
+                <h1>Oleksandr Fryziuk</h1>
+
+                <div id="info">
+                    <p><strong>Address:</strong></p>
+                    <p>Kyiv, Ukraine</p>
+                    <p><strong>Phone:</strong></p>
+                    <p>+38 (063) 577 95 21</p>
+                    <p><strong>Email:</strong></p>
+                    <p>fryzukalex@gmail.com</p>
+                    <p><strong>Date of birth:</strong></p>
+                    <p>Born 23 April 1994</p>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <nav class="main-navigation">
-        <a href="#work-experience">Work Experience</a>
-        <a href="#education">Education</a>
-        <a href="#skils">Skills</a>
-    </nav>
+        <nav class="main-navigation">
+            <a class="main-navigation" href="#work-experience">Work Experience</a>
+            <a class="main-navigation" href="#education">Education</a>
+            <a class="main-navigation" href="#skills">Skills</a>
+        </nav>
 
-    <h3 id="work-experience">Work experience</h3>
-    <ul>
-        <li>
+        <h3> Work experience</h3>
+        <hr class="separator" />
+
+        <div id="work-experience">
             <p>May 2020 - Present </p>
-            
-            <p> <strong>Title: C++/Qt Software Engineer </strong></p>
-            <p>Company: <a href="https://developex.com">DevelopEx</a>, Kyiv </p>
-            <p> Project scope is focused on creation of cross platform desktop controlling software for one of
-                well-know consumer electronics company.
-                Tech stack: C++17, Qt, QML, QTest, CMake, Git, Phabricator/Arcanist, Python
-            </p>
-        </li>
-        <li>
+
+            <div>
+                <p> <strong>Title: C++/Qt Software Engineer </strong></p>
+                <p>Company: <a href="https://developex.com">DevelopEx</a>, Kyiv </p>
+                <p> Project scope is focused on creation of cross platform desktop controlling software for one of
+                    well-know consumer electronics company. <br />
+                    Tech stack: C++17, Qt, QML, QTest, CMake, Git, Phabricator/Arcanist, Python
+                </p>
+            </div>
             <p>February 2019 - March 2020 </p>
-            <p><strong>Title: C/C++ Software Engineer </strong></p>
-            <p> Company: <a href="https://virgilsecurity.com">Virgil Security</a>, Kyiv </p>
-            <p>
-                Security for Vehicle to Everything communication (V2X). IEEE 1609.2 <br />
-                Refactoring CMake files of multiple projects to modern style <br />
-                Fixing bugs in cryptography library <br />
-                Implementing fuzzy tests using libFuzzer <br />
-                Tech stack: C99, C++11, CMake, ASN.1, Protobuf, MbedTLS, libFuzzer, git(+github), Docker,
-                Jenkins <br />
-            </p>
-        </li>
-
-        <li>
+            <div>
+                <p><strong>Title: C/C++ Software Engineer </strong></p>
+                <p> Company: <a href="https://virgilsecurity.com">Virgil Security</a>, Kyiv </p>
+                <p>
+                    Security for Vehicle to Everything communication (V2X). IEEE 1609.2 <br />
+                    Refactoring CMake files of multiple projects to modern style <br />
+                    Fixing bugs in cryptography library <br />
+                    Implementing fuzzy tests using libFuzzer <br />
+                    Tech stack: C99, C++11, CMake, ASN.1, Protobuf, MbedTLS, libFuzzer, git(+github), Docker,
+                    Jenkins <br />
+                </p>
+            </div>
             <p>June 2016 - November 2018 </p>
-            <p><strong>C++/Qt Software Engineer</strong> </p>
-            <p>Company: <a href="https://www.avmap.it/en/">AvMap</a>, Kyiv </p>
-            <p>
-                Develop software for marine navigation including support of various peripheral devices <br />
-                Tech stack: Linux, Qt5(Qml), C++11, CMake, Boost, SQLite, git(+gitlab), Redmine. ARM-based
-                target platform<br />
-            </p>
-        </li>
 
-        <li>
+            <div>
+                <p><strong>C++/Qt Software Engineer</strong> </p>
+                <p>Company: <a href="https://www.avmap.it/en/">AvMap</a>, Kyiv </p>
+                <p>
+                    Develop software for marine navigation including support of various peripheral devices <br />
+                    Tech stack: Linux, Qt5(Qml), C++11, CMake, Boost, SQLite, git(+gitlab), Redmine. ARM-based
+                    target platform<br />
+                </p>
+            </div>
             <p>July 2015 - September 2015</p>
-            <p><strong>JavaScript Software Engineer Trainee</strong></p>
-            <p> Company: <a href="https://www.portaone.com">PortaOne </a>, Kyiv </p>
-            <p>
-                Working in the team with two trainees create web-tool for monitoring SIP servers. The tool
-                provides interactive charts of main SIP server characteristics <br />
-                Tech stack: JavaScript, Perl, Vagrant, JQuery, Google Charts, Linux <br />
-            </p>
-        </li>
-    </ul>
+            <div>
+                <p><strong>JavaScript Software Engineer Trainee</strong></p>
+                <p> Company: <a href="https://www.portaone.com">PortaOne </a>, Kyiv </p>
+                <p>
+                    Working in the team with two trainees create web-tool for monitoring SIP servers. The tool
+                    provides interactive charts of main SIP server characteristics <br />
+                    Tech stack: JavaScript, Perl, Vagrant, JQuery, Google Charts, Linux
+                </p>
+            </div>
+        </div>
+        <h3>Education</h3>
+        <hr />
+        <div id="education">
+            <p>2016 - 2018</p>
+            <div>
+                <p><strong>Master's degree in Software Engineering </strong></p>
+                <p>
+                    Taras Shevchenko National University of Kyiv, Faculty of Computer Science and Cybernetics
+                </p>
+            </div>
+            <p>2012 - 2016</p>
+            <div>
+                <p><strong>Bachelors's degree in in Computer Engineering</strong></p>
+                <p>
+                    Taras Shevchenko National University of Kyiv, Faculty of Radiophysics, Electronics and Computer
+                    Systems
+                </p>
+            </div>
+        </div>
 
-    <h3 id="education">Education</h3>
-    <ul>
-        <li>
-            <p><strong>2016 - 2018 Master's degree in Software Engineering </strong></p>
-            <p>
-                Taras Shevchenko National University of Kyiv, Faculty of Computer Science and Cybernetics
-            </p>
-        </li>
+        <h3>Skills</h3>
+        <hr class="separator" />
 
-        <li>
-            <p><strong>2012 - 2016 Bachelors's degree in in Computer Engineering</strong></p>
-            <p>
-                Taras Shevchenko National University of Kyiv, Faculty of Radiophysics, Electronics and Computer
-                Systems
-            </p>
-        </li>
-    </ul>
-
-    <h3 id="skils">Skills</h3>
-    <ul>
-        <li>
+        <div id="skills">
             <p><strong>Languages:</strong></p>
             <p>English - intermediate, Ukrainian, Russian - mother tongue</p>
-        </li>
-        <li>
-            <p><strong>Programming languages: </strong> C++, C, QML, C# Some experience with Python, JavaScript, F#</p>
-        </li>
-        <li>
-            <p><strong>Utils and etc: </strong> Git, CMake, Docker, Vagrant, Jenkins, Valgrind, Sanitizers (Address, Thread), libFuzzer, SQLite</p>
-        </li>
-        <li>
-            <p><strong>Computer science:</strong> Algorithms and data structures, OOP</p>
-        </li>
-        <li>
-            <p><strong>OS:</strong> Basic Linux administration skills, Mac OS, Windows</p>
-        </li>
-
-        <li>
-            <p><strong>Software:</strong> Clion, Qt Creator, Microsoft Visual Studio</p>
-        </li>
-    </ul>
-
+            <p><strong>Programming languages: </strong></p>
+            <p>C++, C, QML, C# Some experience with Python, JavaScript, F#</p>
+            <p><strong>Utils and etc: </strong></p>
+            <p>Git, CMake, Docker, Vagrant, Jenkins, Valgrind, Sanitizers (Address, Thread), libFuzzer, SQLite</p>
+            <p><strong>Computer science:</strong></p>
+            <p> Algorithms and data structures, OOP</p>
+            <p><strong>OS:</strong> </p>
+            <p>Basic Linux administration skills, Mac OS, Windows</p>
+            <p><strong>Software:</strong></p>
+            <p>Clion, Qt Creator, Microsoft Visual Studio</p>
+        </div>
+    </div>
 </body>
 
 </html>
