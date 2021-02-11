@@ -1,0 +1,70 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    padding: 0 25px;
+    border-right: 2px solid;
+}
+
+
+nav a:last-child {
+    border-right: 0;
+}
+
+body {
+    padding: 0 50px;
+}
+
+
+.content {
+    max-width: 1200px;
+    min-width: 700px;
+    margin: auto;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#photo {
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+
+#personal-info {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.3fr 1fr;
+}
+#work-experience {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+#education {
+    display: grid;
+    grid-template-rows: 70px 70px;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+#skills {
+    display: grid;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+#info {
+    display: grid;
+    grid-template-rows: 30px 30px 30px 30px;
+    grid-template-columns: 100px 1fr;
+
+}
