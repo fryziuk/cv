@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "/Users/oleksandrfryziuk/pet_projects"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/oleksandrfryziuk/hipstaschool/gallery"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cv"
+	}
+}
